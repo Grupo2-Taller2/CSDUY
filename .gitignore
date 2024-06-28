@@ -1,0 +1,79 @@
+# Archivos compilados de Java
+*.class
+
+# Archivos de paquete
+*.jar
+*.war
+*.ear
+
+# Carpeta target de Maven
+target/
+
+# Archivos de IDE
+.idea/
+*.iml
+.vscode/
+*.sublime-workspace
+
+# Archivos de configuración local
+application.properties
+application.yml
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Carpetas específicas del proyecto (si no quieres versionar archivos dentro)
+# src/main/resources/imagenes/secuaces/
+# src/main/resources/sonidos/efectos/
+# src/main/resources/sonidos/musica/
+
+# Archivos específicos de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Archivos de respaldo
+*~
+
+# Archivos específicos de Eclipse (si alguien en el equipo usa Eclipse)
+.classpath
+.project
+.settings/
+
+# Archivos específicos de NetBeans (si alguien en el equipo usa NetBeans)
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Carpeta de compilación de Gradle (por si decides usar Gradle en el futuro)
+build/
+
+# Archivos específicos de Spring Boot (si decides usar Spring Boot en el futuro)
+.spring-boot-devtools.properties
+
+# Archivos de configuración de base de datos
+*.properties
+*.yml
+!src/main/resources/application.properties
+!src/main/resources/application.yml
